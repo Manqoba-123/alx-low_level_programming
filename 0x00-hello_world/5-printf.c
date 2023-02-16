@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - output with printf function
- * return 0
+ * Description: output the grammar outcome
+ * Return: Always 0 (success)
  */
 int main(void)
 {
