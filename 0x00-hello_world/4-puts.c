@@ -2,6 +2,7 @@
 
 int main(void) 
 {
-puts("\"Programming is like building a multilingual puzzle");
+char a[] = "\"Programming is like building  multilingual pizzle";
+puts(a);
 return (0);
 }
