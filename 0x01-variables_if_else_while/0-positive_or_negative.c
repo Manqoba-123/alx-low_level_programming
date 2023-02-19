@@ -12,7 +12,7 @@ int main(void)
 	int randomNumber;
 
 	srand(time(0));
-	ranomdNumber = rand() - RAND_MAX / 2;
+	randomNumber = rand() - RAND_MAX / 2;
 
 	if (randomNumber > 0)
 	{
