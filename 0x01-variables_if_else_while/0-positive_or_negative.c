@@ -9,21 +9,22 @@
  */
 int main(void)
 {
-	int rand1 = 98;
-	int rand2 = 0;
-	int rand3 = -98;
+	int randomNumber;
 
-	if (rand1 > 0)
+	srand(time(0));
+	ranomdNumber = rand() - RAND_MAX / 2;
+
+	if (randomNumber > 0)
 	{
-		printf("%d is positive\n", rand1);
+		printf("%d is positive\n", randomNumber);
 	}
-	else if (rand2 == 0)
+	else if (randomNumber == 0)
 	{
-		printf("%d is zero\n", rand2);
+		printf("%d is zero\n", randomNumber);
 	}
 	else
 	{
-		printf("%d is negative\n", rand3);
+		printf("%d is negative\n", randomNumber);
 	}
 	return (0);
 }
