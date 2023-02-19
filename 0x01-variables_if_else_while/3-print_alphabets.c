@@ -20,6 +20,6 @@ int main(void)
 		putchar(upperCase);
 		upperCase++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
