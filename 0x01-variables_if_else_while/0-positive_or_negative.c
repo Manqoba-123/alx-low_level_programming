@@ -15,15 +15,15 @@ int main(void)
 
 	if (randomNumber > 0)
 	{
-		printf("%d is positive\n", randomNumber);
+		printf("%ld is positive\n", randomNumber);
 	}
 	else if (randomNumber == 0)
 	{
-		printf("%d is zero\n", randomNumber);
+		printf("%ld is zero\n", randomNumber);
 	}
 	else
 	{
-		printf("%d is negative\n", randomNumber);
+		printf("%ld is negative\n", randomNumber);
 	}
 	return (0);
 }
