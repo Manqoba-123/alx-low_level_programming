@@ -19,7 +19,7 @@ int main(void)
 		}
 		else
 		{
-			putchar('$');
+			putchar('\n');
 		}
 		num1++;
 	}
