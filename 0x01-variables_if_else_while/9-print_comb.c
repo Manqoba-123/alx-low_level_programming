@@ -21,7 +21,7 @@ int main(void)
 		{
 			putchar('$');
 		}
-		num++;
+		num1++;
 	}
 	return (0);
 }
