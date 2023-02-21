@@ -10,7 +10,7 @@ void alphabets(void)
 
 	while (alpha <= 'z')
 	{
-		putchar(alpha);
+		_putchar(alpha);
 		alpha++;
 	}
 }
