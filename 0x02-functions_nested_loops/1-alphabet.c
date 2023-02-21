@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main, alphabets -> to output the alphabets
- * Return: always 0
+ * print_lphabet -> to output the alphabets
  */
+
 void print_alphabet(void)
 {
 	char alpha = 'a';
@@ -13,10 +13,5 @@ void print_alphabet(void)
 		_putchar(alpha);
 		alpha++;
 	}
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
+	_putchar('\n');
 }
