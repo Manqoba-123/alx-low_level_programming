@@ -4,7 +4,7 @@
  * main, alphabets -> to output the alphabets
  * Return: always 0
  */
-void alphabets(void)
+void print_alphabet(void)
 {
 	char alpha = 'a';
 
@@ -17,6 +17,6 @@ void alphabets(void)
 
 int main(void)
 {
-	alphabets();
+	print_alphabet();
 	return (0);
 }
