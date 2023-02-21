@@ -1,11 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - entry point
- * Description: printing _putchar
- * firstFunction: to output
- * Returns: always 0 (success)
+ * main -> entry
+ * firstFunction -> outputs _putchar
+ * Return: returns 1 or 0 depending on the condition
  */
 void firstFunction(void)
 {
@@ -15,6 +13,5 @@ void firstFunction(void)
 int main(void)
 {
 	firstFunction();
-	putchar('\n');
 	return (0);
 }
