@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - tests function that prints if integer is positive or negative
+ * main - entry
+ * Description - Test function for pos and nag
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
