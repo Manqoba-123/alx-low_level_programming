@@ -2,7 +2,7 @@
 
 /**
  * print_numbers -> prints digits
- * Return: return list of numbers 0-9
+ * Return: returns void
  */
 
 void print_numbers(void)
@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		_putchar((i % 10) + '0');
+		_putchar(i + '0');
 	}
 	_putchar('\n');
 }
