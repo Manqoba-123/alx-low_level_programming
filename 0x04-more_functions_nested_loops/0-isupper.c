@@ -6,14 +6,21 @@
  * Return: it returns 1 or 0 depending on the condition
  */
 
-in _isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
-		return (1);
+		_putchar(c + '0');
+		_putchar(':');
+		_putchar(' ');
+		_putchar('1');
 	}
 	else
 	{
-		return (0);
+		_putchar(c + '0');
+		_putchar(':');
+		_putchar(' ');
+		_putchar('0');
 	}
+	_putchar('\n');
 }
