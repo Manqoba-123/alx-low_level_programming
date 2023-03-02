@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <ctype.h>
 
 /**
  * string_toupper -> changes cases for letters
@@ -10,14 +12,8 @@ char *string_toupper(char *a)
 {
 	int i;
 
-	i = 0;
-	while (a[i] != '\0')
+	for (i = 0; i < strlen(a); i++)
 	{
-		if (a[i] >= 'a' && a[i] <= 'z')
-		{
-			a[i] -= 32;
-		}
-		i++
+		a[i] = toupper(a[i]);
 	}
-	return (a);
 }
