@@ -8,12 +8,12 @@
  * Return: returns character
  */
 
-char *string_toupper(char *a)
+char *string_toupper(char *str)
 {
 	int i;
 
-	for (i = 0; i < strlen(a); i++)
+	for (i = 0; i < strlen(str); i++)
 	{
-		a[i] = toupper(a[i]);
+		str[i] = toupper(str[i]);
 	}
 }
