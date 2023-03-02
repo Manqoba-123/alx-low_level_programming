@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat -> conc to nth term
+ * _strncat -> conc to nth term
  * @dest: takes destination of a string
  * @src: takes source of a string
  * @n: takes number of nth term
