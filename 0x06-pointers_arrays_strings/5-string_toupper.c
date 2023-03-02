@@ -1,19 +1,20 @@
 #include "main.h"
 #include <string.h>
-#include <ctype.h>
 
 /**
  * string_toupper -> changes cases for letters
- * @a: character
+ * @str: character
  * Return: returns character
  */
 
 char *string_toupper(char *str)
 {
-	int i;
-
-	for (i = 0; i < strlen(str); i++)
+	while (*str)
 	{
-		str[i] = toupper(str[i]);
+		if (*str >= 'a' && *str <= 'z')
+		{
+			*str -= 32;
+		}
+		str++;
 	}
 }
