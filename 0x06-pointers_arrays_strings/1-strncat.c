@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * *_strncat -> conc to nth term
@@ -14,7 +13,9 @@ char *_strncat(char *dest, char *src, int n)
 	char *ptr = dest;
 
 	while (*ptr != '\0')
+	{
 		ptr++;
+	}
 	while (*src != '\0' && n-- > 0)
 	{
 		*ptr++ = *src++;
