@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * put2 - prints characters
+ * puts2 - prints characters
  * @str: String
  *
  * Return: void
